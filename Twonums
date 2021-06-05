@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	   long long int a,b,n,x,y,ans;
+	    cin>>a>>b>>n;
+	  if(n%2!=0)
+	  {
+	      a*=2;
+	  }
+	  x=max(a,b);
+	  y=min(a,b);
+	  ans=x/y;
+	  cout<<ans<<endl;
+	}
+	return 0;
+}
